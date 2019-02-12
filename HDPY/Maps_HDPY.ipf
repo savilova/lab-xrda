@@ -155,7 +155,7 @@ End
 //*********************************************************
 Function MakeMapH5(HDF5_path_name, slab, n0, m0, x1, x2, y1, y2)
 
-	//Old version of mapping function
+	//Old version of mapping function - very slow!
 
 	//Picks up a small segment (defined by its coordinates x1,x2,y1,y2) from all the integrated scans 
 	//in the experiment and concatenates all the segments into one picture which consists of total 
